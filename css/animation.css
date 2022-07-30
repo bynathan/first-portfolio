@@ -1,0 +1,41 @@
+/* GLOBAL */
+
+.downloadprojects:hover {
+    opacity: 60%;
+}
+
+/* -LIGHT- */
+
+.topiconblacklight:hover {
+    opacity: 100%;
+}
+
+.profilewhitelight img:hover {
+    transform: scale(1.07);
+}
+
+.iconsonelight img:hover {
+    opacity: 60%;
+}
+
+.tabsbuttontwolight button:hover {
+    background-color: #d7d7d7;
+}
+
+/* -DARK- */
+
+.topiconwhitedark:hover {
+    opacity: 100%;
+}
+
+.profileblackdark img:hover {
+    transform: scale(1.07);
+}
+
+.iconstwodark img:hover {
+    opacity: 80%;
+}
+
+.tabsbuttontwodark button:hover {
+    background-color: #0C151D;
+}

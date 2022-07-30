@@ -1,0 +1,53 @@
+/* ---------------------------------------------------LIGHT------------------------------------------------------------------- */
+
+/* CREDITS */
+
+.footerlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 130px;
+}
+
+.footerlight h1 {
+    color: #A3ABB2;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.footerlight h2 {
+    color: #A3ABB2;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+/* ---------------------------------------------------DARK------------------------------------------------------------------- */
+
+/* CREDITS */
+
+.footerdark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 130px;
+}
+
+.footerdark h1 {
+    color: #A3ABB2;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.footerdark h2 {
+    color: #A3ABB2;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-top: 4px;
+}

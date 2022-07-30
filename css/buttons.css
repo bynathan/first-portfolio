@@ -1,0 +1,76 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 460px;
+    /* margin-left: 12px; */
+}
+
+/* ---------------------------------------------------LIGHT------------------------------------------------------------------- */
+
+/* BUTTONS */
+
+.buttononelight a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #FBD144;
+    border-radius: 10px;
+    padding: 18px 45px;
+}
+
+.buttontwolight a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 18px 55px;
+}
+
+.buttononelight img {
+    height: 15px;
+    width: 15px;
+    padding-bottom: 2px;
+}
+
+/* ---------------------------------------------------DARK------------------------------------------------------------------- */
+
+/* BUTTONS */
+
+.buttononedark a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 18px 50px;
+}
+
+.buttontwodark a {
+    text-decoration: none;
+    color: #A3ABB2;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #171F26;
+    border-radius: 10px;
+    padding: 18px 55px;
+}
+
+.buttononedark img {
+    height: 15px;
+    width: 15px;
+    padding-bottom: 2px;
+}

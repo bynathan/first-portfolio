@@ -1,0 +1,241 @@
+.full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topicons {
+    margin-top: 30px;
+}
+
+.infosprofile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.textinfos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.infosnome {
+    display: flex;
+}
+
+/* ---------------------------------------------------LIGHT------------------------------------------------------------------- */
+
+/* -TOP ICONS- */
+
+.topiconblacklight {
+    opacity: 0%;
+    position: absolute;
+    top: 0px;
+    transition: all;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+
+.topiconwhitelight img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+.topiconblacklight img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+/* -INFOS PROFILES- */
+
+.profilewhitelight {
+    margin-top: 50px;
+}
+
+.profilewhitelight img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 12px solid white;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: grab;
+}
+
+.profileblacklight {
+    display: none;
+}
+
+.icons img {
+    width: 23px;
+    height: 23px;
+    cursor: grab;
+    opacity: 90%;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+/*H1 H2*/
+
+.infosonelight {
+    display: flex;
+    align-items: center;
+}
+
+.infosonelight h1 {
+    font-size: 37px;
+    color: #3D3D3D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 90%;
+}
+
+.infosonelight h2 {
+    font-size: 12px;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: 50%;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.infostwolight h3 {
+    font-size: 16px;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 90%;
+}
+
+/* ICONS */
+
+.iconsonelight {
+    display: flex;
+    align-items: center;
+}
+
+.iconsonelight a {
+    padding-right: 26px;
+    margin-top: 12px;
+}
+
+.iconsonelight img {
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+.iconstwolight {
+    display: none;
+}
+
+/* ---------------------------------------------------DARK------------------------------------------------------------------- */
+
+/* -TOP ICONS- */
+
+.topiconwhitedark {
+    opacity: 0%;
+    position: absolute;
+    top: 0px;
+    transition: all;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+
+.topiconwhitedark img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+.topiconblackdark img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+/* -INFOS PROFILES- */
+
+.profilewhitedark {
+    display: none;
+}
+
+.profileblackdark {
+    margin-top: 50px;
+}
+
+.profileblackdark img {
+    width: 190px;
+    height: 19  0px;
+    border-radius: 50%;
+    border: 12px solid white;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: grab;
+}
+
+/* H1 H2 */
+
+.infosonedark {
+    display: flex;
+    align-items: center;
+}
+
+.infosonedark h1 {
+    font-size: 37px;
+    color: #F1F2F4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 95%;
+}
+
+.infosonedark h2 {
+    font-size: 12px;
+    color: #A3ABB2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    opacity: 50%;
+    padding-top: 8px;
+    padding-left: 14px;
+}
+
+.infostwodark h3 {
+    font-size: 16px;
+    color: #A3ABB2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+/* ICONS */
+
+.iconsonedark {
+    display: none;
+}
+
+.iconstwodark {
+    display: flex;
+    align-items: center;
+}
+
+.iconstwodark a {
+    padding-right: 26px;
+    margin-top: 12px;
+}
+
+.iconstwodark img {
+    opacity: 40%;
+    transition: all;
+    transition-duration: 0.4s;
+}

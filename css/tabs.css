@@ -1,0 +1,109 @@
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* ---------------------------------------------------LIGHT------------------------------------------------------------------- */
+
+/* Tabs */
+
+.tabsbackgroundlight {
+    background-color: #ffffff;
+    height: 88px;
+    width: 540px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 3px;
+}
+
+.tabsbuttononelight button {
+    border: none;
+    color: white;
+    background-color: #d7d7d7;
+    padding: 20px 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* transition: all;
+    transition-duration: 0.5s; */
+}
+
+.tabsbuttontwolight button {
+    border: none;
+    color: white;
+    background-color: #ffffff;
+    padding: 20px 102px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.tabsbuttononelight p{
+    color: #3D3D3D;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.tabsbuttontwolight p{
+    color: #3D3D3D;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------DARK------------------------------------------------------------------- */
+
+/* Tabs*/
+
+.tabsbackgrounddark {
+    background-color: #171F26;
+    height: 88px;
+    width: 540px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 3px;
+}
+
+.tabsbuttononedark button {
+    border: none;
+    color: white;
+    background-color: #0C151D;
+    padding: 20px 90px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* transition: all;
+    transition-duration: 0.5s; */
+}
+
+.tabsbuttontwodark button {
+    border: none;
+    color: white;
+    background-color: #171F26;
+    padding: 20px 102px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.tabsbuttononedark p{
+    color: #A3ABB2;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.tabsbuttontwodark p{
+    color: #A3ABB2;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+

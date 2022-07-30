@@ -1,0 +1,359 @@
+/* -------------------------------------------------------------LIGTH----------------------------------------------------------- */
+
+@media (max-width: 609px) {
+
+    .footerlight h1 {
+        font-size: 13px;
+    }
+
+    .footerlight h2 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 541px) {
+
+    .projectsgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .projectsgrid img {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .footerlight h1 {
+        font-size: 11px;
+    }
+
+    .footerlight h2 {
+        font-size: 8px;
+    }
+
+    .tabsbackgroundlight {
+        width: 100vw;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .infosonelight h1 {
+        font-size: 30px;
+    }
+
+    .infosonelight h2 {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .tabsbuttononelight button {
+        padding: 20px 80px;
+        border-radius: 10px;
+        /* transition: all;
+        transition-duration: 0.5s; */
+    }
+
+    .tabsbuttontwolight button {
+        padding: 20px 92px;
+        border-radius: 10px;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+
+    .footerlight h1 {
+        font-size: 9px;
+    }
+
+    .footerlight h2 {
+        padding-top: 0;
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 455px) {
+    .infosprofile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .infosonelight h2 {
+        display: none;
+    }
+
+    .infosnome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 28px;
+    }
+
+    .tabsbackgroundlight {
+        height: 88px;
+        width: 350px;
+        margin-left: 2px;
+    }
+
+    .tabsbuttononelight button {
+        padding: 20px 45px;
+        border-radius: 10px;
+    }
+
+    .tabsbuttontwolight button {
+        padding: 20px 57px;
+        border-radius: 10px;
+    }
+
+    .tabsbuttononelight p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .tabsbuttontwolight p {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .footerlight {
+        display: none;
+    }
+}
+
+@media (max-width: 403px) {
+
+    .buttononelight a {
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 10px;
+        padding: 18px 30px;
+    }
+
+    .buttontwolight a {
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding: 18px 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    
+    .footerlight {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .topicons {
+        margin-left: 20px;
+    }
+
+    .infosprofile {
+        margin-left: 25px;
+    }
+
+    .textinfos {
+        margin-left: 30px;
+    }
+
+    .statusfull {
+        margin-left: 60px;
+    }
+
+    .buttons {
+        margin-left: 15px;
+    }
+
+    .projectsgrid {
+        margin-left: 15px;
+    }
+}
+
+/* ----------------------------------------------------------DARK--------------------------------------------------------------- */
+
+@media (max-width: 609px) {
+
+    .footerdark h1 {
+        font-size: 13px;
+    }
+
+    .footerdark h2 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 541px) {
+
+    .projectsgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .projectsgrid img {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .footerdark h1 {
+        font-size: 11px;
+    }
+
+    .footerdark h2 {
+        font-size: 8px;
+    }
+
+    .tabsbackgrounddark {
+        width: 100vw;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .infosonedark h1 {
+        font-size: 30px;
+    }
+
+    .infosonedark h2 {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .tabsbuttononedark button {
+        padding: 20px 80px;
+        border-radius: 10px;
+        /* transition: all;
+        transition-duration: 0.5s; */
+    }
+
+    .tabsbuttontwodark button {
+        padding: 20px 92px;
+        border-radius: 10px;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+
+    .footerdark h1 {
+        font-size: 9px;
+    }
+
+    .footerdark h2 {
+        padding-top: 0;
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 455px) {
+    .infosprofile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .infosonedark h2 {
+        display: none;
+    }
+
+    .infosnome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 28px;
+    }
+
+    .tabsbackgrounddark {
+        height: 88px;
+        width: 350px;
+        margin-left: 2px;
+    }
+
+    .tabsbuttononedark button {
+        padding: 20px 45px;
+        border-radius: 10px;
+    }
+
+    .tabsbuttontwodark button {
+        padding: 20px 57px;
+        border-radius: 10px;
+    }
+
+    .tabsbuttononedark p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .tabsbuttontwodark p {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .footerdark {
+        display: none;
+    }
+}
+
+@media (max-width: 403px) {
+
+    .buttononedark a {
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 10px;
+        padding: 18px 30px;
+    }
+
+    .buttontwodark a {
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding: 18px 30px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .footerdark h1 {
+        display: none;
+    }
+
+    .footerdark h2 {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .topicons {
+        margin-left: 20px;
+    }
+
+    .infosprofile {
+        margin-left: 25px;
+    }
+
+    .textinfos {
+        margin-left: 30px;
+    }
+
+    .statusfull {
+        margin-left: 60px;
+    }
+
+    .buttons {
+        margin-left: 15px;
+    }
+
+    .projectsgrid {
+        margin-left: 15px;
+    }
+}
