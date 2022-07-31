@@ -180,7 +180,7 @@
     height: 19  0px;
     border-radius: 50%;
     border: 12px solid white;
-    transition: opacity;
+    transition: all;
     transition-duration: 0.5s;
     cursor: grab;
 }
