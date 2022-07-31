@@ -148,7 +148,7 @@
     opacity: 0%;
     position: absolute;
     top: 0px;
-    transition: all;
+    transition: opacity;
     transition-duration: 0.5s;
     margin-top: 30px;
 }
