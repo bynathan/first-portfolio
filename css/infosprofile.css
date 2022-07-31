@@ -36,22 +36,22 @@
 
 /* -TOP ICONS- */
 
-.topiconblacklight {
+.topiconblack.light {
     opacity: 0%;
     position: absolute;
     top: 0px;
-    transition: all;
+    transition: opacity;
     transition-duration: 0.5s;
     margin-top: 30px;
 }
 
-.topiconwhitelight img {
+.topiconwhite.light img {
     white: 60px;
     height: 60px;
     cursor: grab;
 }
 
-.topiconblacklight img {
+.topiconblack.light img {
     white: 60px;
     height: 60px;
     cursor: grab;
@@ -59,11 +59,11 @@
 
 /* -INFOS PROFILES- */
 
-.profilewhitelight {
+.profilewhite.light {
     margin-top: 50px;
 }
 
-.profilewhitelight img {
+.profilewhite.light img {
     width: 190px;
     height: 190px;
     border-radius: 50%;
@@ -73,7 +73,7 @@
     cursor: grab;
 }
 
-.profileblacklight {
+.profileblack.light {
     display: none;
 }
 
@@ -88,12 +88,12 @@
 
 /*H1 H2*/
 
-.infosonelight {
+.infosone.light {
     display: flex;
     align-items: center;
 }
 
-.infosonelight h1 {
+.infosone.light h1 {
     font-size: 37px;
     color: #3D3D3D;
     font-family: 'Poppins', sans-serif;
@@ -101,7 +101,7 @@
     opacity: 90%;
 }
 
-.infosonelight h2 {
+.infosone.light h2 {
     font-size: 12px;
     color: #575757;
     font-family: 'Poppins', sans-serif;
@@ -111,7 +111,7 @@
     padding-left: 10px;
 }
 
-.infostwolight h3 {
+.infostwo.light h3 {
     font-size: 16px;
     color: #575757;
     font-family: 'Poppins', sans-serif;
@@ -121,22 +121,22 @@
 
 /* ICONS */
 
-.iconsonelight {
+.iconsone.light {
     display: flex;
     align-items: center;
 }
 
-.iconsonelight a {
+.iconsone.light a {
     padding-right: 26px;
     margin-top: 12px;
 }
 
-.iconsonelight img {
+.iconsone.light img {
     transition: all;
     transition-duration: 0.4s;
 }
 
-.iconstwolight {
+.iconstwo.light {
     display: none;
 }
 
@@ -144,22 +144,22 @@
 
 /* -TOP ICONS- */
 
-.topiconwhitedark {
+.topiconwhite.dark {
     opacity: 0%;
     position: absolute;
     top: 0px;
-    transition: all;
+    transition: opacity;
     transition-duration: 0.5s;
     margin-top: 30px;
 }
 
-.topiconwhitedark img {
+.topiconwhite.dark img {
     white: 60px;
     height: 60px;
     cursor: grab;
 }
 
-.topiconblackdark img {
+.topiconblack.dark img {
     white: 60px;
     height: 60px;
     cursor: grab;
@@ -167,32 +167,32 @@
 
 /* -INFOS PROFILES- */
 
-.profilewhitedark {
+.profilewhite.dark {
     display: none;
 }
 
-.profileblackdark {
+.profileblack.dark {
     margin-top: 50px;
 }
 
-.profileblackdark img {
+.profileblack.dark img {
     width: 190px;
     height: 19  0px;
     border-radius: 50%;
     border: 12px solid white;
-    transition: all;
+    transition: opacity;
     transition-duration: 0.5s;
     cursor: grab;
 }
 
 /* H1 H2 */
 
-.infosonedark {
+.infosone.dark {
     display: flex;
     align-items: center;
 }
 
-.infosonedark h1 {
+.infosone.dark h1 {
     font-size: 37px;
     color: #F1F2F4;
     font-family: 'Poppins', sans-serif;
@@ -200,7 +200,7 @@
     opacity: 95%;
 }
 
-.infosonedark h2 {
+.infosone.dark h2 {
     font-size: 12px;
     color: #A3ABB2;
     font-family: 'Poppins', sans-serif;
@@ -210,7 +210,7 @@
     padding-left: 14px;
 }
 
-.infostwodark h3 {
+.infostwo.dark h3 {
     font-size: 16px;
     color: #A3ABB2;
     font-family: 'Poppins', sans-serif;
@@ -220,21 +220,21 @@
 
 /* ICONS */
 
-.iconsonedark {
+.iconsone.dark {
     display: none;
 }
 
-.iconstwodark {
+.iconstwo.dark {
     display: flex;
     align-items: center;
 }
 
-.iconstwodark a {
+.iconstwo.dark a {
     padding-right: 26px;
     margin-top: 12px;
 }
 
-.iconstwodark img {
+.iconstwo.dark img {
     opacity: 40%;
     transition: all;
     transition-duration: 0.4s;

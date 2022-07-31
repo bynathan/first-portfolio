@@ -2,21 +2,21 @@
 
 /* CREDITS */
 
-.footerlight {
+.footer.light {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 130px;
 }
 
-.footerlight h1 {
+.footer.light h1 {
     color: #A3ABB2;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.footerlight h2 {
+.footer.light h2 {
     color: #A3ABB2;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
@@ -29,21 +29,21 @@
 
 /* CREDITS */
 
-.footerdark {
+.footer.dark {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 130px;
 }
 
-.footerdark h1 {
+.footer.dark h1 {
     color: #A3ABB2;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.footerdark h2 {
+.footer.dark h2 {
     color: #A3ABB2;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;

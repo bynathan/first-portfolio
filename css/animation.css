@@ -6,36 +6,36 @@
 
 /* -LIGHT- */
 
-.topiconblacklight:hover {
+.topiconblack.light:hover {
     opacity: 100%;
 }
 
-.profilewhitelight img:hover {
+.profilewhite.light img:hover {
     transform: scale(1.07);
 }
 
-.iconsonelight img:hover {
+.iconsone.light img:hover {
     opacity: 60%;
 }
 
-.tabsbuttontwolight button:hover {
+.tabsbuttontwo.light:hover {
     background-color: #d7d7d7;
 }
 
 /* -DARK- */
 
-.topiconwhitedark:hover {
+.topiconwhite.dark:hover {
     opacity: 100%;
 }
 
-.profileblackdark img:hover {
+.profileblack.dark img:hover {
     transform: scale(1.07);
 }
 
-.iconstwodark img:hover {
+.iconstwo.dark img:hover {
     opacity: 80%;
 }
 
-.tabsbuttontwodark button:hover {
+.tabsbuttontwo.dark:hover {
     background-color: #0C151D;
 }

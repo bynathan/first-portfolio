@@ -11,7 +11,7 @@
 
 /* BUTTONS */
 
-.buttononelight a {
+.buttonone.light a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -24,7 +24,7 @@
     padding: 18px 45px;
 }
 
-.buttontwolight a {
+.buttontwo.light a {
     text-decoration: none;
     color: #3D3D3D;
     font-size: 14px;
@@ -35,7 +35,7 @@
     padding: 18px 55px;
 }
 
-.buttononelight img {
+.buttonone.light img {
     height: 15px;
     width: 15px;
     padding-bottom: 2px;
@@ -45,7 +45,7 @@
 
 /* BUTTONS */
 
-.buttononedark a {
+.buttonone.dark a {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -58,7 +58,7 @@
     padding: 18px 50px;
 }
 
-.buttontwodark a {
+.buttontwo.dark a {
     text-decoration: none;
     color: #A3ABB2;
     font-size: 14px;
@@ -69,7 +69,7 @@
     padding: 18px 55px;
 }
 
-.buttononedark img {
+.buttonone.dark img {
     height: 15px;
     width: 15px;
     padding-bottom: 2px;

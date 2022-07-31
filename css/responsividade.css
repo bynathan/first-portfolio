@@ -2,11 +2,11 @@
 
 @media (max-width: 609px) {
 
-    .footerlight h1 {
+    .footer.light h1 {
         font-size: 13px;
     }
 
-    .footerlight h2 {
+    .footer.light h2 {
         font-size: 9px;
     }
 }
@@ -25,49 +25,49 @@
         border-radius: 10px;
     }
 
-    .footerlight h1 {
+    .footer.light h1 {
         font-size: 11px;
     }
 
-    .footerlight h2 {
+    .footer.light h2 {
         font-size: 8px;
     }
 
-    .tabsbackgroundlight {
+    .tabsbackground.light {
         width: 100vw;
         margin-right: 0px;
     }
 }
 
 @media (max-width: 500px) {
-    .infosonelight h1 {
+    .infosone.light h1 {
         font-size: 30px;
     }
 
-    .infosonelight h2 {
+    .infosone.light h2 {
         font-size: 11px;
         font-weight: 600;
     }
 
-    .tabsbuttononelight button {
+    .tabsbuttonone.light {
         padding: 20px 80px;
         border-radius: 10px;
         /* transition: all;
         transition-duration: 0.5s; */
     }
 
-    .tabsbuttontwolight button {
+    .tabsbuttontwo.light {
         padding: 20px 92px;
         border-radius: 10px;
         transition: all;
         transition-duration: 0.5s;
     }
 
-    .footerlight h1 {
+    .footer.light h1 {
         font-size: 9px;
     }
 
-    .footerlight h2 {
+    .footer.light h2 {
         padding-top: 0;
         font-size: 7px;
     }
@@ -82,7 +82,7 @@
         margin-top: 10px;
     }
 
-    .infosonelight h2 {
+    .infosone.light h2 {
         display: none;
     }
 
@@ -94,48 +94,54 @@
         margin-left: 28px;
     }
 
-    .tabsbackgroundlight {
+    .tabsbackground.light {
         height: 88px;
         width: 350px;
         margin-left: 2px;
     }
 
-    .tabsbuttononelight button {
+    .tabsbuttonone.light {
         padding: 20px 45px;
         border-radius: 10px;
     }
 
-    .tabsbuttontwolight button {
+    .tabsbuttontwo.light {
         padding: 20px 57px;
         border-radius: 10px;
     }
 
-    .tabsbuttononelight p {
+    .tabsbuttonone.light p {
         font-size: 13px;
         font-weight: 500;
     }
 
-    .tabsbuttontwolight p {
+    .tabsbuttontwo.light p {
         font-size: 13px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
     }
 
-    .footerlight {
+    .footer.light {
         display: none;
+    }
+}
+
+@media (max-width: 412px) {
+    .status.light {
+        margin: 0 0 0 10px;
     }
 }
 
 @media (max-width: 403px) {
 
-    .buttononelight a {
+    .buttonone.light a {
         font-size: 12px;
         font-weight: 600;
         border-radius: 10px;
         padding: 18px 30px;
     }
 
-    .buttontwolight a {
+    .buttontwo.light a {
         font-size: 12px;
         font-weight: 500;
         border-radius: 10px;
@@ -145,7 +151,7 @@
 
 @media (max-width: 380px) {
     
-    .footerlight {
+    .footer.light {
         display: none;
     }
 }
@@ -164,7 +170,7 @@
     }
 
     .statusfull {
-        margin-left: 60px;
+        margin-left: 50px;
     }
 
     .buttons {
@@ -180,11 +186,11 @@
 
 @media (max-width: 609px) {
 
-    .footerdark h1 {
+    .footer.dark h1 {
         font-size: 13px;
     }
 
-    .footerdark h2 {
+    .footer.dark h2 {
         font-size: 9px;
     }
 }
@@ -203,49 +209,49 @@
         border-radius: 10px;
     }
 
-    .footerdark h1 {
+    .footer.dark h1 {
         font-size: 11px;
     }
 
-    .footerdark h2 {
+    .footer.dark h2 {
         font-size: 8px;
     }
 
-    .tabsbackgrounddark {
+    .tabsbackground.dark {
         width: 100vw;
         margin-right: 0px;
     }
 }
 
 @media (max-width: 500px) {
-    .infosonedark h1 {
+    .infosone.dark h1 {
         font-size: 30px;
     }
 
-    .infosonedark h2 {
+    .infosone.dark h2 {
         font-size: 11px;
         font-weight: 600;
     }
 
-    .tabsbuttononedark button {
+    .tabsbuttonone.dark {
         padding: 20px 80px;
         border-radius: 10px;
         /* transition: all;
         transition-duration: 0.5s; */
     }
 
-    .tabsbuttontwodark button {
+    .tabsbuttontwo.dark {
         padding: 20px 92px;
         border-radius: 10px;
         transition: all;
         transition-duration: 0.5s;
     }
 
-    .footerdark h1 {
+    .footer.dark h1 {
         font-size: 9px;
     }
 
-    .footerdark h2 {
+    .footer.dark h2 {
         padding-top: 0;
         font-size: 7px;
     }
@@ -260,7 +266,7 @@
         margin-top: 10px;
     }
 
-    .infosonedark h2 {
+    .infosone.dark h2 {
         display: none;
     }
 
@@ -272,48 +278,54 @@
         margin-left: 28px;
     }
 
-    .tabsbackgrounddark {
+    .tabsbackground.dark {
         height: 88px;
         width: 350px;
         margin-left: 2px;
     }
 
-    .tabsbuttononedark button {
+    .tabsbuttonone.dark {
         padding: 20px 45px;
         border-radius: 10px;
     }
 
-    .tabsbuttontwodark button {
+    .tabsbuttontwo.dark {
         padding: 20px 57px;
         border-radius: 10px;
     }
 
-    .tabsbuttononedark p {
+    .tabsbuttonone.dark p {
         font-size: 13px;
         font-weight: 500;
     }
 
-    .tabsbuttontwodark p {
+    .tabsbuttontwo.dark p {
         font-size: 13px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
     }
 
-    .footerdark {
+    .footer.dark {
         display: none;
+    }
+}
+
+@media (max-width: 412px) {
+    .status.dark {
+        margin: 0 0 0 10px;
     }
 }
 
 @media (max-width: 403px) {
 
-    .buttononedark a {
+    .buttonone.dark a {
         font-size: 12px;
         font-weight: 600;
         border-radius: 10px;
         padding: 18px 30px;
     }
 
-    .buttontwodark a {
+    .buttontwo.dark a {
         font-size: 12px;
         font-weight: 500;
         border-radius: 10px;
@@ -323,11 +335,11 @@
 
 @media (max-width: 380px) {
 
-    .footerdark h1 {
+    .footer.dark h1 {
         display: none;
     }
 
-    .footerdark h2 {
+    .footer.dark h2 {
         display: none;
     }
 }
@@ -346,7 +358,7 @@
     }
 
     .statusfull {
-        margin-left: 60px;
+        margin-left: 50px;
     }
 
     .buttons {

@@ -11,13 +11,13 @@
 
 /* -Status Position- */
 
-.statuslight {
+.status.light {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.statuslight h1 {
+.status.light h1 {
     color: #575757;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -25,7 +25,7 @@
     opacity: 90%;
 }
 
-.statuslight h2 {
+.status.light h2 {
     color: #575757;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -33,7 +33,7 @@
     opacity: 90%;
 }
 
-.statuslight h3 {
+.status.light h3 {
     color: #575757;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -45,13 +45,13 @@
 
 /* -Status Position- */
 
-.statusdark {
+.status.dark {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.statusdark h1 {
+.status.dark h1 {
     color: #A3ABB2;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -59,7 +59,7 @@
     opacity: 55%;
 }
 
-.statusdark h2 {
+.status.dark h2 {
     color: #A3ABB2;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -67,7 +67,7 @@
     opacity: 55%;
 }
 
-.statusdark h3 {
+.status.dark h3 {
     color: #A3ABB2;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;

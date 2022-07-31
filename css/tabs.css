@@ -9,7 +9,7 @@
 
 /* Tabs */
 
-.tabsbackgroundlight {
+.tabsbackground.light {
     background-color: #ffffff;
     height: 88px;
     width: 540px;
@@ -20,7 +20,7 @@
     margin-right: 3px;
 }
 
-.tabsbuttononelight button {
+.tabsbuttonone.light {
     border: none;
     color: white;
     background-color: #d7d7d7;
@@ -31,7 +31,7 @@
     transition-duration: 0.5s; */
 }
 
-.tabsbuttontwolight button {
+.tabsbuttontwo.light {
     border: none;
     color: white;
     background-color: #ffffff;
@@ -42,14 +42,14 @@
     transition-duration: 0.5s;
 }
 
-.tabsbuttononelight p{
+.tabsbuttonone.light p{
     color: #3D3D3D;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.tabsbuttontwolight p{
+.tabsbuttontwo.light p{
     color: #3D3D3D;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -60,7 +60,7 @@
 
 /* Tabs*/
 
-.tabsbackgrounddark {
+.tabsbackground.dark {
     background-color: #171F26;
     height: 88px;
     width: 540px;
@@ -71,7 +71,7 @@
     margin-right: 3px;
 }
 
-.tabsbuttononedark button {
+.tabsbuttonone.dark {
     border: none;
     color: white;
     background-color: #0C151D;
@@ -82,7 +82,8 @@
     transition-duration: 0.5s; */
 }
 
-.tabsbuttontwodark button {
+.tabsbuttontwo.dark {
+    text-decoration: none;
     border: none;
     color: white;
     background-color: #171F26;
@@ -93,14 +94,14 @@
     transition-duration: 0.5s;
 }
 
-.tabsbuttononedark p{
+.tabsbuttonone.dark p{
     color: #A3ABB2;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.tabsbuttontwodark p{
+.tabsbuttontwo.dark p{
     color: #A3ABB2;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;

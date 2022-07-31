@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-#dark {
+.dark {
     background-color: #0C151D;
 }
 
-#light {
+.light {
     background-color: #E9EBEC;
 }
