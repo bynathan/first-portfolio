@@ -20,12 +20,10 @@
 
 .tabsbuttontwo.light:hover {
     background-color: #d7d7d7;
-    transition-duration: 0.5s;
 }
 
 .tabsbuttonone.light:hover {
     background-color: #d7d7d7;
-    transition-duration: 0.5s;
 }
 
 /* -DARK- */
@@ -44,10 +42,8 @@
 
 .tabsbuttontwo.dark:hover {
     background-color: #0C151D;
-    transition-duration: 0.5s;
 }
 
 .tabsbuttonone.dark:hover {
     background-color: #0C151D;
-    transition-duration: 0.5s;
 }
