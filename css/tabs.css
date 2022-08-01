@@ -23,7 +23,7 @@
 .tabsbuttonone.light {
     border: none;
     color: white;
-    background-color: #d7d7d7;
+    background-color: #ffffff;
     padding: 20px 90px;
     border-radius: 10px;
     cursor: pointer;
@@ -74,7 +74,7 @@
 .tabsbuttonone.dark {
     border: none;
     color: white;
-    background-color: #0C151D;
+    background-color: #171F26;
     padding: 20px 90px;
     border-radius: 10px;
     cursor: pointer;
