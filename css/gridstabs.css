@@ -1,0 +1,41 @@
+.gridsfull {
+    display: grid;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projectsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.projectsgrid img {
+    width: 260px;
+    border-radius: 10px;
+}
+
+.downloadprojects {
+    position: absolute;
+    opacity: 0%;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.skillsgrid {
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.skillsgrid h1 {
+    color: purple;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.none {
+    display: none;
+}
