@@ -116,9 +116,9 @@ tabsButtonProjects[0].addEventListener('click', function() {
 //------------------------------------ALERT----------------------------------------------------
 
 LogoDark[4].addEventListener('click', function(){
-    window.alert('Obrigado pelo carinho, Sou lindo né?')
+    alert('Obrigado pelo carinho, Sou lindo né?')
 })
 
 LogoLight[3].addEventListener('click', function(){
-    window.alert('Obrigado pelo carinho, Sou lindo né?')
+    alert('Obrigado pelo carinho, Sou lindo né?')
 })
