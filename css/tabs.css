@@ -28,7 +28,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background;
-    transition-duration: 0.1s;
+    transition-duration: 0.4s;
 }
 
 .tabsbuttontwo.light {
@@ -39,7 +39,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background;
-    transition-duration: 0.1s;
+    transition-duration: 0.4s;
 }
 
 .tabsbuttonone.light p{
@@ -79,7 +79,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background;
-    transition-duration: 0.1s;
+    transition-duration: 0.4s;
 }
 
 .tabsbuttontwo.dark {
@@ -91,7 +91,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background;
-    transition-duration: 0.1s;
+    transition-duration: 0.4s;
 }
 
 .tabsbuttonone.dark p{
