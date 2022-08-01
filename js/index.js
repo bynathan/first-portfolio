@@ -1,5 +1,12 @@
 const ThemeLight = document.getElementById('ThemeLight');
 const ThemeDark = document.getElementById('ThemeDark');
+const tabsButtonSkills = document.getElementsByClassName('tabsbuttontwo')
+const tabsButtonProjects = document.getElementsByClassName('tabsbuttonone')
+const LogoDark = document.querySelectorAll('.dark')
+const LogoLight = document.querySelectorAll('.dark')
+
+// -----------------------------------DARK/LIGHT----------------------------------------------
+
 const removeDarkAddLight = function(){
     const DarksElements = document.querySelectorAll('.dark');
 
@@ -80,28 +87,38 @@ const LightsElements = document.querySelectorAll('.light');
     LightsElements[17].classList.add('dark')
 }
 
-
 ThemeLight.addEventListener('click', removeDarkAddLight);
 
 ThemeDark.addEventListener('click', removeLightAddDark);
 
-const tabsButtonSkills = document.getElementsByClassName('tabsbuttontwo')
-const tabsButtonProjects = document.getElementsByClassName('tabsbuttonone')
+// -----------------------------------TABS----------------------------------------------------
 
-tabsButtonSkills[0].addEventListener('click', function(){
+tabsButtonSkills[0].addEventListener('click', function() {
 
     const tabsProjects = document.getElementsByClassName('projectsgrid')
     const tabsSkills = document.getElementsByClassName('skillsgrid')
+    const tabsButtonSkills = document.getElementsByClassName('tabsbuttontwo')
+    const tabsButtonProjects = document.getElementsByClassName('tabsbuttonone')
 
     tabsProjects[0].classList.add('none')
     tabsSkills[0].classList.remove('none')
 })
 
-tabsButtonProjects[0].addEventListener('click', function(){
+tabsButtonProjects[0].addEventListener('click', function() {
 
     const tabsProjects = document.getElementsByClassName('projectsgrid')
     const tabsSkills = document.getElementsByClassName('skillsgrid')
 
     tabsProjects[0].classList.remove('none')
     tabsSkills[0].classList.add('none')
+})
+
+//------------------------------------ALERT----------------------------------------------------
+
+LogoDark[4].addEventListener('click', function(){
+    window.alert('Obrigado pelo carinho, Sou lindo né?')
+})
+
+LogoLight[3].addEventListener('click', function(){
+    window.alert('Obrigado pelo carinho, Sou lindo né?')
 })
