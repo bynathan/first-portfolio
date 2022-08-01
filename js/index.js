@@ -1,6 +1,6 @@
 const ThemeLight = document.getElementById('ThemeLight');
 const ThemeDark = document.getElementById('ThemeDark');
-const RemoveDarkAddLight = function(){
+const removeDarkAddLight = function(){
     const DarksElements = document.querySelectorAll('.dark');
 
     DarksElements[0].classList.remove('dark')
@@ -40,7 +40,7 @@ const RemoveDarkAddLight = function(){
     DarksElements[16].classList.add('light')
     DarksElements[17].classList.add('light')
 }
-const RemoveLightAddDark = function(){
+const removeLightAddDark = function(){
 const LightsElements = document.querySelectorAll('.light');
     LightsElements[0].classList.remove('light')
     LightsElements[1].classList.remove('light')
@@ -81,6 +81,27 @@ const LightsElements = document.querySelectorAll('.light');
 }
 
 
-ThemeLight.addEventListener('click', RemoveDarkAddLight);
+ThemeLight.addEventListener('click', removeDarkAddLight);
 
-ThemeDark.addEventListener('click', RemoveLightAddDark);
+ThemeDark.addEventListener('click', removeLightAddDark);
+
+const tabsButtonSkills = document.getElementsByClassName('tabsbuttontwo')
+const tabsButtonProjects = document.getElementsByClassName('tabsbuttonone')
+
+tabsButtonSkills[0].addEventListener('click', function(){
+
+    const tabsProjects = document.getElementsByClassName('projectsgrid')
+    const tabsSkills = document.getElementsByClassName('skillsgrid')
+
+    tabsProjects[0].classList.add('none')
+    tabsSkills[0].classList.remove('none')
+})
+
+tabsButtonProjects[0].addEventListener('click', function(){
+
+    const tabsProjects = document.getElementsByClassName('projectsgrid')
+    const tabsSkills = document.getElementsByClassName('skillsgrid')
+
+    tabsProjects[0].classList.remove('none')
+    tabsSkills[0].classList.add('none')
+})
