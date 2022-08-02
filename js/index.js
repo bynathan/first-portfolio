@@ -17,8 +17,8 @@ const removeDarkAddLight = function(){
 const removeLightAddDark = function(){
 const lightsElements = document.querySelectorAll('.light');
 for(let i = 0; i <= lightsElements.length; i++ ){
-    lightsElements[i].classList.remove('dark')
-    lightsElements[i].classList.add('light')
+    lightsElements[i].classList.remove('light')
+    lightsElements[i].classList.add('dark')
     }
 }
 
