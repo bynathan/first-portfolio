@@ -14,6 +14,7 @@ const removeDarkAddLight = function(){
     darksElements[i].classList.add('light')
     }
 }
+
 const removeLightAddDark = function(){
 const lightsElements = document.querySelectorAll('.light');
 for(let i = 0; i <= lightsElements.length; i++ ){
@@ -32,8 +33,6 @@ tabsButtonSkills[0].addEventListener('click', function() {
 
     const tabsProjects = document.getElementsByClassName('projectsgrid')
     const tabsSkills = document.getElementsByClassName('skillsgrid')
-    const tabsButtonSkills = document.getElementsByClassName('tabsbuttontwo')
-    const tabsButtonProjects = document.getElementsByClassName('tabsbuttonone')
 
     tabsProjects[0].classList.add('none')
     tabsSkills[0].classList.remove('none')
