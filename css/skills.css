@@ -1,0 +1,210 @@
+.skillsgrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.skillsgrid.none{
+    display: none;
+}
+
+.skillhtml {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillcss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skilljs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillreact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mediumskillbar {
+}
+
+/* ----------------------------------------Light------------------------------------------------------------ */
+.skillbar.light {
+    background-color: #FBD144;
+    width: 200px;
+    height: 8px;
+}
+
+.mediumskillbar.light{
+    position: absolute;
+    background-color: #FBD144;
+    width: 100px;
+    height: 8px;
+}
+
+.lowskillbar.light {
+    background-color: #787878;
+    width: 200px;
+    height: 8px;
+}
+
+/* h1/h2 */
+
+.skillhtml.light h1 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.skillcss.light h1 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skilljs.light h1 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skillreact.light h1 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skillhtml.light h2 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.skillcss.light h2 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.skilljs.light h2 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.skillreact.light h2 {
+    color: #19191B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+/* --------------------------------------------Dark------------------------------------------------------------ */
+/* BARRAS */
+
+.skillbar.dark {
+    background-color: #D9D9D9;
+    width: 200px;
+    height: 8px;
+}
+
+.mediumskillbar.dark{
+    position: absolute;
+    background-color: #D9D9D9;
+    width: 100px;
+    height: 8px;
+}
+
+.lowskillbar.dark {
+    background-color: #787878;
+    width: 200px;
+    height: 8px;
+}
+
+/* h1/h2 */
+
+.skillhtml.dark h1 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.skillcss.dark h1 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skilljs.dark h1 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skillreact.dark h1 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.skillhtml.dark h2 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.skillcss.dark h2 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.skilljs.dark h2 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.skillreact.dark h2 {
+    color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
