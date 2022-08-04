@@ -14,7 +14,6 @@
 .projectsgrid img {
     width: 260px;
     border-radius: 10px;
-    cursor: grab;
 }
 
 .downloadprojects {
@@ -22,7 +21,6 @@
     opacity: 0%;
     transition: all;
     transition-duration: 0.3s;
-    cursor: grab;
 }
 
 .none {
