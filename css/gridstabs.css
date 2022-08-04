@@ -22,6 +22,7 @@
     opacity: 0%;
     transition: all;
     transition-duration: 0.3s;
+    cursor: grab;
 }
 
 .none {
