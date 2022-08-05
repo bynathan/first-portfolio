@@ -325,6 +325,10 @@
         margin-top: 10px;
     }
 
+    .n-2 {
+        margin-left: 0px;
+    }
+
     .infosone.dark h2 {
         display: none;
     }
