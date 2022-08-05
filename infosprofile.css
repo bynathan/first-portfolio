@@ -1,0 +1,251 @@
+.full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.n-2 {
+    margin-left: 10px;
+}
+
+.infoscolumn {
+    display: flex;
+}
+
+.topicons {
+    margin-top: 30px;
+}
+
+.infosprofile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.textinfos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.infosnome {
+    display: flex;
+}
+
+/* ---------------------------------------------------LIGHT------------------------------------------------------------------- */
+
+/* -TOP ICONS- */
+
+.topiconblack.light {
+    opacity: 0%;
+    position: absolute;
+    top: 0px;
+    transition: opacity;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+
+.topiconwhite.light img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+.topiconblack.light img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+/* -INFOS PROFILES- */
+
+.profilewhite.light {
+    margin-top: 50px;
+}
+
+.profilewhite.light img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 12px solid white;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: grab;
+}
+
+.profileblack.light {
+    display: none;
+}
+
+.icons img {
+    width: 23px;
+    height: 23px;
+    cursor: grab;
+    opacity: 90%;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+/*H1 H2*/
+
+.infosone.light {
+    display: flex;
+    align-items: center;
+}
+
+.infosone.light h1 {
+    font-size: 37px;
+    color: #3D3D3D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: 90%;
+}
+
+
+.infosone.light h2 {
+    font-size: 12px;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: 50%;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.infostwo.light h3 {
+    font-size: 16px;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: 90%;
+}
+
+/* ICONS */
+
+.iconsone.light {
+    display: flex;
+    align-items: center;
+}
+
+.iconsone.light a {
+    padding-right: 26px;
+    margin-top: 12px;
+}
+
+.iconsone.light img {
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+.iconstwo.light {
+    display: none;
+}
+
+/* ---------------------------------------------------DARK------------------------------------------------------------------- */
+
+/* -TOP ICONS- */
+
+.topiconwhite.dark {
+    opacity: 0%;
+    position: absolute;
+    top: 0px;
+    transition: opacity;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+
+.topiconwhite.dark img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+.topiconblack.dark img {
+    white: 60px;
+    height: 60px;
+    cursor: grab;
+}
+
+/* -INFOS PROFILES- */
+
+.profilewhite.dark {
+    display: none;
+}
+
+.profileblack.dark {
+    margin-top: 50px;
+}
+
+.profileblack.dark img {
+    width: 190px;
+    height: 19  0px;
+    border-radius: 200px;
+    border: 12px solid white;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: grab;
+    background-color: transparent;
+}
+
+/* H1 H2 */
+
+.infosone.dark {
+    display: flex;
+    align-items: center;
+}
+
+.infosone.dark h1 {
+    font-size: 37px;
+    color: #F1F2F4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: 95%;
+}
+
+.infosone.dark h2 {
+    font-size: 12px;
+    color: #A3ABB2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: 50%;
+    padding-top: 8px;
+    padding-left: 14px;
+}
+
+.infostwo.dark h3 {
+    font-size: 16px;
+    color: #A3ABB2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+/* ICONS */
+
+.iconsone.dark {
+    display: none;
+}
+
+.iconstwo.dark {
+    display: flex;
+    align-items: center;
+}
+
+.iconstwo.dark a {
+    margin-right: 26px;
+    margin-top: 12px;
+}
+
+.iconstwo.dark img {
+    opacity: 40%;
+    transition: all;
+    transition-duration: 0.4s;
+}
