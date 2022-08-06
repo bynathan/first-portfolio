@@ -1,4 +1,15 @@
 /* -------------------------------------------------------------LIGTH----------------------------------------------------------- */
+@media (max-width: 720px) {
+    .buttonone.light a{
+        font-size: 13px;
+        padding: 18px 45px;
+    }
+
+    .buttontwo.light a{
+        font-size: 13px;
+        padding: 18px 50px;
+    }
+}
 
 @media (max-width: 609px) {
 
