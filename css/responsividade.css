@@ -266,6 +266,18 @@
 
 /* ----------------------------------------------------------DARK--------------------------------------------------------------- */
 
+@media (max-width: 720px) {
+    .buttonone.dark a{
+        font-size: 13px;
+        padding: 18px 45px;
+    }
+
+    .buttontwo.dark a{
+        font-size: 13px;
+        padding: 18px 50px;
+    }
+}
+
 @media (max-width: 609px) {
 
     .footer.dark h1 {
