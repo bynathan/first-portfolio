@@ -1,4 +1,4 @@
-// -----------------------------------DARK/LIGHT----------------------------------------------
+// -----------------------------------DARK/LIGHT---------------------------------------------
 
 const themeLight = document.getElementById('ThemeLight');
 const themeDark = document.getElementById('ThemeDark');
