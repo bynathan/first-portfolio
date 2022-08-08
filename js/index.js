@@ -5,17 +5,17 @@ const themeDark = document.getElementById('ThemeDark');
 
 const removeDarkAddLight = function(){
     const darksElements = document.querySelectorAll('.dark');
-    for(let i = 0; i <= darksElements.length; i++ ){
-    darksElements[i].classList.remove('dark');
-    darksElements[i].classList.add('light');
-    }
+    darksElements.forEach((i) => {
+    i.classList.remove('dark');
+    i.classList.add('light');
+    })
 };
 const removeLightAddDark = function(){
 const lightsElements = document.querySelectorAll('.light');
-for(let i = 0; i <= lightsElements.length; i++ ){
-    lightsElements[i].classList.remove('light');
-    lightsElements[i].classList.add('dark');
-    }
+lightsElements.forEach((i) => {
+    i.classList.remove('light');
+    i.classList.add('dark');
+    })
 };
 
 themeLight.addEventListener('click', removeDarkAddLight);
