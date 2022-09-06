@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark {
+    background-color: #0C151D;
+}
+
+.light {
+    background-color: #E9EBEC;
+}
+
+.dark::-webkit-scrollbar{
+    width: 8px;
+}
+
+.dark::-webkit-scrollbar-thumb{
+    background-color: #7E46F6;
+    border-radius: 10px;
+}
+
+.light::-webkit-scrollbar{
+    width: 8px;
+}
+
+.light::-webkit-scrollbar-thumb{
+    background-color: #FFEB3C;
+    border-radius: 10px;
+}
